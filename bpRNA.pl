@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
+use local::lib;  # use local installation for running on cluster
 use Graph;
+use Graph::Undirected;  # without throws Can't locate object method error
 use strict;
 
 #####################################################################
